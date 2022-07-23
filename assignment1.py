@@ -5,4 +5,6 @@ print(Area)
 
 #TASK2: Print Filename
 x = input("Input The Filename: ")
-print("The extention of the file is : ")
+f_exts = x.split(".")
+print("The extention of the file is : " + repr(f_exts[-1]))
+
